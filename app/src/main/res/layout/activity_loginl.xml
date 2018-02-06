@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+    tools:context="com.demo.samt.parkdemo1.LoginLocales">
+
+    <LinearLayout
+
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="406dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="24FIND"
+            android:textColor="@color/lightorange"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/txtusu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.05"
+            android:layout_marginTop="160dp"
+            android:ems="10"
+            android:hint="Ingrese su nombre de usuario"
+            android:inputType="textPersonName"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/txtpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.04"
+            android:ems="10"
+            android:hint="************"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btningresar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.01"
+            android:background="@color/cardview_light_background"
+            android:elevation="5dp"
+            android:onClick="loginUser"
+            android:text="ENTRAR"
+            android:textColor="@color/colorPrimary"
+            android:textSize="24sp"
+            tools:fontFamily="IMPACT"
+            tools:textColor="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+
+</LinearLayout>

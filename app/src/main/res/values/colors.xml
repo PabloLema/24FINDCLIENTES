@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="tabtextcolor">#fff</color>
+    <color name="tablaarriba">#081a28</color>
+    <color name="tablaabajo">#75bbef</color>
+    <color name="tabindicadorcolor">#2d2d2d</color>
+    <color name="colorDivider">#CBCBCB</color>
+    <color name="colorAccent">#99ac70</color>
+    <color name="primary_text_material_dark">#ffffff</color>
+    <color name="lightorange">#fdf2df</color>
+    <color name="lightorangedark">#ebd6ab</color>
+    <color name="negro">#0d0d0d</color>
+
+    <color name="black">#0d0d0d</color>
+
+</resources>
+
